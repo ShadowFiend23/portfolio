@@ -28,9 +28,9 @@ export default class App extends Component {
         <div className="page-bg">
           <Navbar />
           <Hero />
-          {/* <About />
+          <About />
           <Projects />
-          <Contact /> */}
+          <Contact />
         </div>
         {/* <Footer /> */}
       </div>

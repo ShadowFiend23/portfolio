@@ -8,8 +8,10 @@
     scroll-behavior: smooth;
 
 }
+.html,body{
+  overflow-x: hidden;
+}
 a{
-    color:white;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
@@ -23,13 +25,9 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
   }
 
-.Portfolio{
-    
-}
-
-.page-bg{
-    background-color: #000000;
-}
+  .page-bg{
+    background: rgb(237,253,252);
+    background: radial-gradient(circle, rgba(237,253,252,1) 0%, rgba(218,246,245,1) 100%);
+  }

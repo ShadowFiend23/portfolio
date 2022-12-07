@@ -1,13 +1,18 @@
 
-
+#navbar-container{
+  background: rgba( 255, 255, 255, 0.35 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 8.5px );
+  -webkit-backdrop-filter: blur( 8.5px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
 
 .navbar-links a{
     font-size: 18px;
     font-weight: bold;
     position: relative;
     z-index: 3;
-    background-color: #000000;
-    color: #fff;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -18,9 +23,10 @@
 }
 .navbar-link{
     position: relative;
-    background-color: black;
     border: 5px solid transparent;
 }
+
+/* 
 .navbar-link:hover::after {
     content: '';
     position: absolute;
@@ -68,6 +74,6 @@
         height: 100%;
         width: 100%;
       }
-  }
+  } */
   
   
