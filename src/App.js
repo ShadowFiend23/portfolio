@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import './app.css';
+import './App.css';
 import loader from './assets/JJ.gif';
 import { About, Contact, Footer, Hero, Navbar, Projects } from "./components";
 
