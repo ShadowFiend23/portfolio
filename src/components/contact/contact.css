@@ -1,0 +1,14 @@
+#contact-info{
+    background-color: #01b8b0;
+}
+
+
+.contact-labels:focus{
+    --tw-border-opacity: 1;
+    border-color: rgb(1 184 176 / var(--tw-border-opacity));
+}
+
+#message:focus{
+    --tw-border-opacity: 1;
+    border-color: rgb(1 184 176 / var(--tw-border-opacity));
+}

@@ -6,9 +6,9 @@ const Navbar = () => {
   return (
     <div className='w-full flex fixed z-10' id="navbar-container">
       <div className='w-1/2 lg:ml-10'>
-        <img className='w-[100px]' src={ logo } alt='' />
+        {/* <img className='w-[100px]' src={ logo } alt='' /> */}
       </div>
-      <div className='w-1/2 flex float-right'>
+      <div className='w-1/2 py-4 flex float-right'>
         <nav className='navbar-links w-full justify-end items-center mr-10 flex'>
           <div className="navbar-link mx-10 hidden lg:block">
             <a className='' href='#home'>Home</a>
@@ -17,10 +17,10 @@ const Navbar = () => {
             <a className='' href='#about'>About</a>
           </div>
           <div className="navbar-link mx-10 hidden lg:block">
-            <a className='' href='#'>Projects</a>
+            <a className='' href='#projects'>Projects</a>
           </div>
           <div className="navbar-link mx-10 hidden lg:block">
-            <a className='' href='#'>Contact</a>
+            <a className='' href='#contact'>Contact</a>
           </div>
           <div className='p-3 bg-white rounded block lg:hidden'>
             <div className="space-y-2 items-center">

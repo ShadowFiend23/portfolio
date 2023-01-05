@@ -24,15 +24,22 @@ export default class App extends Component {
     //   );
     // }
     return (
-      <div className="Portfolio">
-        <div className="page-bg">
-          <Navbar />
-          <Hero />
-          <About />
-          <Projects />
-          <Contact />
+      <div class="main-page">
+        <div className="Portfolio">
+          <div className="page-bg">
+            <Navbar />
+            <Hero />
+            <About />
+            <Projects />
+            <Contact />
+          </div>
+          {/* <Footer /> */}
+        
         </div>
-        {/* <Footer /> */}
+        
+        <div className="sidebar">
+          ~
+        </div>
       </div>
     );
   }

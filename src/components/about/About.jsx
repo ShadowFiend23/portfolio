@@ -12,7 +12,7 @@ import react from '../../assets/svg/react.svg';
 
 const About = () => {
   return (
-    <section className='container flex flex-wrap lg:flex mx-auto' id='about'>
+    <section className='container flex flex-wrap lg:flex lg:mx-auto lg:h-screen lg:pt-28' id='about'>
       <div className='flex order-2 w-screen px-5 my-10'>
         <div className="w-full">
           <h1 className=' text-2xl'>Softwares</h1>
@@ -45,7 +45,7 @@ const About = () => {
         </div>
       </div>
       <div className='w-screen order-1 mt-28'>
-        <h1 className=' text-center text-6xl'>Who Is Jumil?</h1>
+        <h1 className='text-center text-6xl'>Who Is Jumil?</h1>
         <div className='text-justify px-5 mx-auto'>
           <p className=' text-2l pt-4 mx-auto'>Jumil Jade R. Rosales is a full-stack developer (mainly backend) from Leyte, Philippines.</p>
           <p className=' text-2l pt-4 mx-auto'>Developing web applications for small stores, company and student projects. If I have spare time, I usually use it to code or play pc games (Dota 2 / Valorant). I also love to read manhwa/manhua.</p>
